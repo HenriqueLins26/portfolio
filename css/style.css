@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Catalago das cores
+    #1F3A93
+    #60A5FA
+    #3A506B
+    #6C757D
+    #C9D6DF
+    #0F172A
+*/
+body{
+    background-color: #161925;
+    color: #C9D6DF;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color:#1F3A93;
+}
+nav{
+    float: right;
+    padding-right: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    padding: 20px;
+}
+
+a {
+    color: #C9D6DF;
+    text-decoration: none;
+}
