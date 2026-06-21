@@ -6,3 +6,41 @@
     #C9D6DF
     #0F172A
 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    margin: 100px 0px 100px 0px;
+}
+
+section{
+    margin: 80px;
+}
+
+div{
+    margin: 40px 10px;
+}
+
+/* Rodapé*/
+footer{
+    width: 100vw;
+    height: 40px;
+    background-color: #0F172A;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer a{
+    color: #fff;
+}
