@@ -1,36 +1,91 @@
-/* Catalago das cores
-    #1F3A93
-    #60A5FA
-    #3A506B
-    #6C757D
-    #C9D6DF
-    #0F172A
-*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Definção das paginas*/
 *{
     margin: 0;
     padding: 0;
+    font-family: var(--font-tit);
 }
 
+:root {
+    --font-tit: 'Josefin Sans';
+    --font-prg: 'Inter';
+}
+
+p{
+    font-family: var(--font-prg);
+}
+
+body{
+    background-color: #eaeef1;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+
+}
 a{
     text-decoration: none;
-}
-
-main{
-    margin: 100px 0px 100px 0px;
+    color: #fff;
 }
 
 section{
-    margin: 80px;
+    padding: 10px;
+    margin: 100px 20px 100px 20px;
 }
 
-div{
-    margin: 40px 10px;
+
+/* Inicio do menu*/
+header{
+    width: 100%;
+    background-color: #3A506B;
+    padding: 20px 0px;
+    color: #fff;
+    
 }
+
+.menu span{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.logo {
+    vertical-align: bottom;
+    margin-left: 50px;
+    margin-bottom: -5px;
+}
+
+nav{
+    text-align: right;
+    margin-right: 30px;
+}
+
+nav > a{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav a:hover{
+    padding: 10px;
+    background-color: #c9d6df71;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+}
+ nav a.ativo{
+    background-color: #c9d6df71;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 2px solid #fff;
+ }
+
+/* Fim do menu*/
+
 
 /* Rodapé*/
 footer{
-    width: 100vw;
-    height: 40px;
+    height: 35px;
     background-color: #0F172A;
     color: #fff;
     text-align: center;
@@ -38,9 +93,36 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 footer a{
     color: #fff;
+    padding: 0px 8px;
+
 }
+
+footer a:hover{
+    background-color: #c9d6df23;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Icones do rodapé*/
+.icon{
+    width: 20px;
+    margin-right: 6px;
+    vertical-align: bottom;
+
+}
+/* Fim do rodapé */
+
+
+
+ /* Catalago das cores
+    #1F3A93
+    #60A5FA
+    #3A506B
+    #6C757D
+    #C9D6DF
+    #0F172A
+*/
