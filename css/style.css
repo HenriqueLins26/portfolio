@@ -39,6 +39,7 @@ section{
 }
 
 /* Inicio do menu*/
+
 header{
     width: 100%;
     background-color: #3A506B;
@@ -84,6 +85,9 @@ nav a:hover{
 
 /* Fim do menu*/
 
+/* Inicio da pagina Sobre */
+/* Fim da pagina Sobre */
+
 /* Inicio da pagina Formação */
 
 .formacao {
@@ -103,6 +107,62 @@ nav a:hover{
     padding: 10px;
     margin: 20px;
 }
+
+.cards-formacao{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.forma{
+    background-image: linear-gradient(150deg,#0F172A,#3A506B, #0F172A);
+    color: white;
+    border: 2px solid #C9D6DF;
+    box-shadow: -4px 4px 15px #0F172A;
+    border-radius: 15%;
+    padding: 15px;
+    width: 450px;
+    height: 200px;
+    margin: 10px;
+}
+.forma > h3{
+    text-align: center;
+    margin: 5px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.forma > p{
+    padding-top: 8px;
+    text-align: justify;
+}
+
+.card-for {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-f{
+    box-shadow: -4px 4px 10px #0F172A;
+    border: 2px solid #3A506B;
+    border-radius: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+}
+
+.card-f > h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.card-f > p{
+    text-align: justify;
+}
+
 /* Fim da pagina Formação */
 
 /* Inicio da pagina Portifolio */
@@ -124,16 +184,19 @@ nav a:hover{
 
 .card-por{
     color: #fff;
-    height: 350px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 40px;
-    
 }
 
 .cards{
     background-image: linear-gradient(200deg, #0F172A, #3A506B);
     border-radius: 40px;
-    box-shadow: -8px 8px 10px #0F172A;
+    width: 500px;
+    height: 350px;
+    border: 1px solid #C9D6DF;
+    box-shadow: -8px 8px 15px #0F172A;
     margin: 10px;
     padding: 10px;
 }
@@ -147,14 +210,12 @@ nav a:hover{
     text-align: justify;
     font-size: 18px;
     font-weight: 300;
-    padding: 8px;
+    padding-top: 8px;
 }
 
 .port{
     font-size: 20px;
     margin-top: 40px;
-    
-    
 }
 
 .port > a{
@@ -191,8 +252,6 @@ nav a:hover{
     font-size: 18px;
  }
 
-
-
 #formulario{  
     height: 600px;
     background-image: url('../image/pawel-czerwinski-JycBD2jrOb8-unsplash.jpg');
@@ -217,7 +276,6 @@ nav a:hover{
     left: 50%;
     overflow: hidden;
     transform: translate(-50%, -50%);
-
 }
 
 .campo {
@@ -233,7 +291,6 @@ nav a:hover{
     border-bottom: 2px solid #9c9c9c;
     padding: 2px 0px 0px 5px;
     margin-bottom: 10px;
-    
 }
 
 .campo > textarea{
@@ -289,7 +346,6 @@ nav a:hover{
     font-size: 20px;
     color: #000;
     font-weight: 700;
-
 }
 
 .icon-cont{
