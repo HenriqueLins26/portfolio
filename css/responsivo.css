@@ -1,25 +1,48 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 768px){
-
-
-    p {
-        font-size: 14px;
-    }
-    /* Rodapé */
-    footer {
-        height: 80px;
+    /* Definçaõ da pagina*/
+    h1{
+        padding-top: 10px;
+        font-size: 33px;
+        font-weight: 600;
     }
 
-    footer a {
-        padding: 0px;
+    h2{
+        font-size: 26px;
+        font-weight: 500;
     }
 
-    footer a:hover {
-        padding: 5px;
+    p{
+        font-size: 16px;
+    }
+    /* Pagina Home*/
+    .perfil{
+        flex-direction: column;
+        margin-bottom: 30px;
     }
 
-    .icon{
-        width: 15px;
+    .ft-perfil > img{
+        width: 180px;
+        height: 180px;
     }
+    .descri{
+        width: 370px;
+    }
+
+    .descri > p{
+        margin-top: 5px;
+        padding: 8px;
+    }
+
+    .cards-des{
+        flex-direction: column;
+    }
+
+    .des {
+
+        height: 130px;
+        margin: 10px auto;
+    }
+    /* Pagina Home*/
 }

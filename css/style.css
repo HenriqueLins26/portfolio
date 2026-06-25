@@ -17,7 +17,6 @@
     --cor5: #3A506B;
     --cor6: #C9D6DF;
 
-
     --font-tit: 'Josefin Sans';
     --font-prg: 'Inter';
 }
@@ -28,7 +27,7 @@ body{
     background-color: #eaeef1;
 }
 h1 {
-    font-size: 50px;
+
     padding-top: 25px;
     color: #000000;
     text-align: center;
@@ -57,7 +56,7 @@ a{
 
 section{
     padding: 10px;
-    margin: 100px 0px 100px 0px;
+    margin: 50px 0px 50px 0px;
 }
 
 /* Inicio do menu*/
@@ -322,6 +321,7 @@ nav a:hover{
 /* Inicio da pagina Portifolio */
 .princ{
     text-align: center;
+    padding: 30px;
 }
 
 .princ p{
