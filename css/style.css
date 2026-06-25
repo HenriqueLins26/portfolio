@@ -199,9 +199,6 @@ nav a:hover{
 .sobre {
     text-align: center;
 }
-.sobre > h2 {
-    margin-bottom: 40px;
-}
 
 .sob{
     margin: auto;
@@ -224,7 +221,6 @@ nav a:hover{
 }
 
 .card-sob{
-
     margin: 10px;
     width: 400px;
     height: 150px;
