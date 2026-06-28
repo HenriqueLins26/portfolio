@@ -108,12 +108,12 @@
     }
     .descri{
         margin: 0;
-        width: 95%;
+        width: 94%;
     }
 
     .descri > p{
         margin-top: 5px;
-        padding: 8px;
+        padding: 5px;
     }
 
     .cards-des{
@@ -141,7 +141,7 @@
 
     .card-sob{
         box-shadow: -4px 4px 10px var(--cor1);
-        border: 5px solid var(--cor5);
+        border: 2px solid var(--cor5);
         border-radius: 10px;
         width: 250px;
         margin: 10px auto;
@@ -163,6 +163,10 @@
 
     .cards-formacao{
         flex-direction: column;
+    }
+
+    .facul1 h3{
+        text-align: left;
     }
 
     .forma{
