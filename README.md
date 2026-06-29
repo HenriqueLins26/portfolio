@@ -43,6 +43,8 @@ O projeto foi construído utilizando tecnologias web fundamentais, focando em se
 ├── contato.html          # Página de Formulário de Contato
 └── README.md             # Documentação do projeto
 
+---
+
 ## 👤 Autor
 
 * **Henrique Lins** - Estudante de Engenharia de Software & Desenvolvedor em Formação.
